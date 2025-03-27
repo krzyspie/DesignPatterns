@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Creational\Singleton\Singleton\Singleton.csproj", "{F7C769A2-6967-4436-BCFE-A65805954620}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonTests", "Creational\Singleton\SingletonTests\SingletonTests.csproj", "{0515F342-88B6-46E1-8785-DF5DB564A717}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,9 +36,22 @@ Global
 		{F7C769A2-6967-4436-BCFE-A65805954620}.Release|x64.Build.0 = Release|Any CPU
 		{F7C769A2-6967-4436-BCFE-A65805954620}.Release|x86.ActiveCfg = Release|Any CPU
 		{F7C769A2-6967-4436-BCFE-A65805954620}.Release|x86.Build.0 = Release|Any CPU
+		{0515F342-88B6-46E1-8785-DF5DB564A717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0515F342-88B6-46E1-8785-DF5DB564A717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0515F342-88B6-46E1-8785-DF5DB564A717}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0515F342-88B6-46E1-8785-DF5DB564A717}.Debug|x64.Build.0 = Debug|Any CPU
+		{0515F342-88B6-46E1-8785-DF5DB564A717}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0515F342-88B6-46E1-8785-DF5DB564A717}.Debug|x86.Build.0 = Debug|Any CPU
+		{0515F342-88B6-46E1-8785-DF5DB564A717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0515F342-88B6-46E1-8785-DF5DB564A717}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0515F342-88B6-46E1-8785-DF5DB564A717}.Release|x64.ActiveCfg = Release|Any CPU
+		{0515F342-88B6-46E1-8785-DF5DB564A717}.Release|x64.Build.0 = Release|Any CPU
+		{0515F342-88B6-46E1-8785-DF5DB564A717}.Release|x86.ActiveCfg = Release|Any CPU
+		{0515F342-88B6-46E1-8785-DF5DB564A717}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{445C122F-562B-4ADD-8623-F82437F98A7D} = {766AA96C-9107-48C3-BBA4-C2FB739A7517}
 		{F7C769A2-6967-4436-BCFE-A65805954620} = {445C122F-562B-4ADD-8623-F82437F98A7D}
+		{0515F342-88B6-46E1-8785-DF5DB564A717} = {445C122F-562B-4ADD-8623-F82437F98A7D}
 	EndGlobalSection
 EndGlobal

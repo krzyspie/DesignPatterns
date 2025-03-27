@@ -8,13 +8,14 @@ public sealed class TypicalSingleton
     {
         get
         {
-            Console.WriteLine("Instance called");
+            //Console.WriteLine("Instance called");
+            Logger.Log("Instance called");
             return _instance ??= new TypicalSingleton();
         }
     }
 
     private TypicalSingleton()
     {
-        Console.WriteLine("TypicalSingleton constructor invoked");
+        Logger.Log("TypicalSingleton constructor invoked");
     }
 }
